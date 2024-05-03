@@ -31,13 +31,12 @@ module.exports = {
         url: "{{input.event[0]}}"
       }
     },
-//    Uncomment this step to enable local wifi sharing (access the app from devices on the same network)
-//    {
-//      method: "proxy.start",
-//      params: {
-//        uri: "{{local.url}}",
-//        name: "Local Sharing"
-//      }
-//    }
+    {
+      method: "proxy.start",
+      params: {
+        uri: "{{local.url}}",
+        name: "Local Sharing"
+      }
+    }
   ]
 }
