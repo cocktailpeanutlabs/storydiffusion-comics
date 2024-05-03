@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = {
   version: "1.5",
-  title: "storydiffusion comics",
+  title: "StoryDiffusion Comics",
   description: "create a story by generating consistent images https://github.com/HVision-NKU/StoryDiffusion",
   icon: "icon.png",
   menu: async (kernel) => {
