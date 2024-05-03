@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/HVision-NKU/StoryDiffusion app",
+          "git clone https://github.com/peanutcocktail/StoryDiffusion app",
         ]
       }
     },
@@ -17,7 +17,7 @@ module.exports = {
         params: {
           venv: "env",                // Edit this to customize the venv folder path
           path: "app",                // Edit this to customize the path to start the shell from
-          // xformers: true   // uncomment this line if your project requires xformers
+          xformers: true   // uncomment this line if your project requires xformers
         }
       }
     },

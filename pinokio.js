@@ -1,8 +1,8 @@
 const path = require('path')
 module.exports = {
   version: "1.5",
-  title: "storydiffusion",
-  description: "",
+  title: "storydiffusion comics",
+  description: "create a story by generating consistent images https://github.com/HVision-NKU/StoryDiffusion",
   icon: "icon.png",
   menu: async (kernel) => {
     let installing = await kernel.running(__dirname, "install.js")
