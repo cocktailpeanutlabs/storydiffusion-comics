@@ -30,7 +30,8 @@ module.exports = {
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
           "pip install gradio devicetorch",
-          "pip install -r requirements.txt"
+          "pip install -r requirements.txt",
+          "pip install --upgrade huggingface-hub"
         ]
       }
     },
