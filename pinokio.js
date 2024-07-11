@@ -10,6 +10,7 @@ module.exports = {
     let running = await kernel.running(__dirname, "start.js")
     if (installing) {
       return [{
+        default: true,
         icon: "fa-solid fa-plug",
         text: "Installing",
         href: "install.js",
