@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  version: "1.5",
+  version: "3.0",
   title: "StoryDiffusion Comics",
   description: "create a story by generating consistent images https://github.com/HVision-NKU/StoryDiffusion",
   icon: "icon.png",
@@ -55,6 +55,8 @@ module.exports = {
           icon: "fa-regular fa-circle-xmark",
           text: "Reset",
           href: "reset.js",
+          confirm: "Are you sure you wish to reset the app?"
+
         }]
       }
     } else {
